@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0px;
     margin: 0px;
 }
@@ -19,35 +19,38 @@ body {
 
 /* header section style */
 header {
-    height: 850px;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 90px;
+    gap: 60px;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
 .header-item-container {
-    padding: 190px 0px 140px 200px;
+    padding: 190px 0px 140px 150px;
 }
 
 .header-title {
     color: #272727;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
 }
 
 .header-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 32px;
     margin-bottom: 32px;
 }
 
 .header-img {
-    height: 800px;
+    height: 600px;
+    width: 635px;
     padding-top: 50px;
+    padding-right: 150px;
+    transform: translateY(2px);
 }
 
 
