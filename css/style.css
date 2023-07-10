@@ -28,12 +28,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
 .header-item-container {
-    padding: 190px 0px 140px 170px;
+    padding: 190px 0px 140px 100px;
 }
 
 .header-title {
@@ -52,9 +52,9 @@ header {
 
 .header-img {
     height: 600px;
-    width: 635px;
+    width: 650px;
     padding-top: 50px;
-    padding-right: 100px;
+    padding-right: 50px;
     transform: translateY(2px);
 }
 
