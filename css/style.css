@@ -33,12 +33,12 @@ header {
 }
 
 .header-item-container {
-    padding: 190px 0px 140px 100px;
+    padding: 190px 0px 140px 120px;
 }
 
 .header-title {
     color: #272727;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 800;
 }
 
@@ -54,12 +54,29 @@ header {
     height: 600px;
     width: 650px;
     padding-top: 50px;
-    padding-right: 50px;
+    padding-right: 70px;
     transform: translateY(2px);
 }
 
 
 /* main section style */
+
+/* featured */
+.featured-container{
+
+}
+.featured-info{
+
+}
+.featured-title{
+
+}
+.featured-description{
+
+}
+.featured-img{
+    
+}
 
 /* hot deal section style */
 .hot-deal {
