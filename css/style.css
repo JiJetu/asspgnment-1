@@ -70,12 +70,13 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    gap: 30px;
     background: rgba(229, 84, 115, 0.05);
+    /* padding: 200px 300px 160px 200px; */
 }
 
 .hot-deal-info {
-    padding: 200px 0px 160px 200px;
+    padding: 200px 0px 160px 230px;
 }
 
 .hot-deal-header {
@@ -93,9 +94,9 @@ header {
 }
 
 .hot-deal-img {
-    width: 220px;
-    height: 300px;
-    padding: 100px 280px 100px 0px;
+    width: 270px;
+    height: 370px;
+    padding: 100px 270px 100px 0px;
 }
 
 /* Instagram section */
@@ -158,9 +159,39 @@ header {
     margin-top: 16px;
     margin-bottom: 40px;
 }
-input[type="email"]{
+
+input[type="email"] {
     padding: 22px 400px 22px 22px;
     border-radius: 8px;
     border: none;
     margin-right: 10px;
+}
+
+
+/* footer section style */
+footer {
+    background-color: #111010;
+    margin-top: 120px;
+    padding: 128px 350px;
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.right-section {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
