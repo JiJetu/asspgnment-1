@@ -92,6 +92,7 @@ header {
     align-items: center;
     gap: 20px;
     margin-left: 200px;
+    margin-right: 200px;
 }
 
 .img-1{
@@ -141,6 +142,7 @@ header {
 }
 .featured-img-description{
     margin-top: 32px;
+    text-decoration-line: underline;
 }
 
 /* hot deal section style */
