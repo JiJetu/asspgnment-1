@@ -121,4 +121,15 @@ header {
     margin-bottom: 48px;
 }
 
-.instagram-img {}
+.instagram-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 240px;
+    gap: 24px;
+}
+
+.instagram-img-size {
+    width: 250px;
+    height: 300px;
+}
