@@ -102,17 +102,14 @@ header {
 .instagram {
     padding-top: 120px;
 }
-
 .instagram-info {
     text-align: center;
 }
-
 .instagram-title {
     color: #272727;
     font-size: 35px;
     font-weight: 800;
 }
-
 .instagram-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
@@ -120,7 +117,6 @@ header {
     margin-top: 24px;
     margin-bottom: 48px;
 }
-
 .instagram-img {
     display: flex;
     justify-content: space-around;
@@ -128,8 +124,9 @@ header {
     padding: 0px 240px;
     gap: 24px;
 }
-
 .instagram-img-size {
     width: 250px;
     height: 300px;
 }
+
+/* Latest Deals section */
