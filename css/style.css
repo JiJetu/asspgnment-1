@@ -20,6 +20,7 @@ body {
     background-color: #E55473;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 /* header section style */
