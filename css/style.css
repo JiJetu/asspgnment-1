@@ -17,7 +17,7 @@ body {
     border: none;
 }
 
-/* header section */
+/* header section style */
 header {
     height: 850px;
     display: flex;
@@ -49,3 +49,6 @@ header {
     height: 800px;
     padding-top: 50px;
 }
+
+
+/* main section style */
