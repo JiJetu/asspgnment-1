@@ -33,7 +33,7 @@ header {
 }
 
 .header-item-container {
-    padding: 190px 0px 140px 150px;
+    padding: 190px 0px 140px 170px;
 }
 
 .header-title {
@@ -54,7 +54,7 @@ header {
     height: 600px;
     width: 635px;
     padding-top: 50px;
-    padding-right: 150px;
+    padding-right: 100px;
     transform: translateY(2px);
 }
 
@@ -75,7 +75,7 @@ header {
 }
 
 .hot-deal-info {
-    padding: 200px 0px 160px 160px;
+    padding: 200px 0px 160px 200px;
 }
 
 .hot-deal-header {
@@ -93,23 +93,26 @@ header {
 }
 
 .hot-deal-img {
-    width: 250px;
-    height: 350px;
-    padding: 100px 300px 100px 0px;
+    width: 220px;
+    height: 300px;
+    padding: 100px 280px 100px 0px;
 }
 
 /* Instagram section */
 .instagram {
     padding-top: 120px;
 }
+
 .instagram-info {
     text-align: center;
 }
+
 .instagram-title {
     color: #272727;
     font-size: 35px;
     font-weight: 800;
 }
+
 .instagram-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
@@ -117,6 +120,7 @@ header {
     margin-top: 24px;
     margin-bottom: 48px;
 }
+
 .instagram-img {
     display: flex;
     justify-content: space-around;
@@ -124,9 +128,39 @@ header {
     padding: 0px 240px;
     gap: 24px;
 }
+
 .instagram-img-size {
     width: 250px;
     height: 300px;
 }
 
 /* Latest Deals section */
+.latest-deals {
+    height: 270px;
+    margin-top: 120px;
+    text-align: center;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+}
+
+.latest-deals-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.latest-deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+input[type="email"]{
+    padding: 22px 400px 22px 22px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
