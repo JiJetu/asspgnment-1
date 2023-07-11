@@ -17,7 +17,7 @@ body {
 .primary-btn {
     padding: 20px 43px;
     border-radius: 8px;
-    background-color: #E55473;
+    background-color: #e55473e0;
     color: white;
     border: none;
     cursor: pointer;
@@ -25,25 +25,88 @@ body {
 
 /* header section style */
 header {
+    /* height: 130vh; */
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+/* nav-bar section style */
+.nav-bar{
+    /* height: 30vh; */
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 25px 0px;
+    align-items: center;
+    color: black;
+}
+.nav-bar > ul{
+    margin-left: 4%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+
+}
+.nav-bar li{
+    font-size: 16px;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+.logo{
+    margin-left: 8%;
+    font-size: 35px;
+    text-align: center;
+}
+.signIn-social{
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.signIn-social .social a{
+    margin-right: 5px;
+}
+.signIn-social .social a>img{
+    height: 40px;
+    width: 40px;
+}
+.signIn-social .sign-btn{
+    background-color: rgba(255, 255, 255, 0.781);
+    color: black;
+    padding: 10px 12px;
+}
+.search {
+    margin-left: 1%;
+    padding: 9px 12px;
+    border-radius: 8px;
+    border: none;
+}
+hr{
+    border: 1px solid #E55473;
+    box-shadow: 1px 1px 4px red;
+}
+
+/* banner section style */
+.banner-item{
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 80px;
-    background-color: rgba(229, 84, 115, 0.10);
 }
-
-.header-item-container {
+.banner-item-container {
     padding: 190px 0px 140px 120px;
 }
 
-.header-title {
+.banner-title {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
 }
 
-.header-description {
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
@@ -51,7 +114,7 @@ header {
     margin-bottom: 32px;
 }
 
-.header-img {
+.banner-img {
     height: 600px;
     width: 650px;
     padding-top: 50px;
